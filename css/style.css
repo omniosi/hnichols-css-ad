@@ -1,0 +1,43 @@
+body{
+	font: normal 1em sans-serif;
+	letter-spacing: 0.25em;
+}
+.hex{
+	width: 500px;
+	margin: 0 auto;
+}
+.mid{
+	/*width: 500px;*/
+	height: 300px;	
+	/*background: rgba(225,255,255,0.8);*/
+	background: #ede6d4;
+}
+.top{
+	/*border-bottom: 125px solid rgba(225,255,255,0.8);*/
+	border-bottom: 125px solid #ede6d4;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+}
+.bottom{
+	/*border-top: 125px solid rgba(225,255,255,0.8);*/
+	border-top: 125px solid #ede6d4;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+}
+.frame{
+	/*background: #7b8f80;*/
+	background: #778f79;
+	padding:50px;
+}
+.endCopy{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+.endCopy h1 {
+	font-weight: normal;
+	font-size: 0.7em;
+}
+.endCopy p {
+	font-size: 1.125em;
+}
