@@ -6,7 +6,8 @@ body{
 	width: 500px;
 	margin: 0 auto;
 }
-.mid{
+.mid,
+.bg-shape{
 	/*width: 500px;*/
 	height: 300px;	
 	/*background: rgba(225,255,255,0.8);*/
@@ -28,6 +29,24 @@ body{
 	/*background: #7b8f80;*/
 	background: #778f79;
 	padding:50px;
+}
+.bg-shape{
+    position: relative;
+
+}
+.bg-shape:before{
+	border-bottom: 125px solid #ede6d4;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;	
+	width: 100%;
+	height: 250px;
+	top: -125px;
+	left: 0;
+}
+.bg-shape img{
+	position: absolute;
+	top: 17%;
+	left: 43%;
 }
 .endCopy{
 	color: white;
