@@ -1,12 +1,13 @@
 body{
 	font: normal 1em 'Numans', sans-serif;
-	letter-spacing: 0.25em;
+	letter-spacing: 0.125em;
 	text-transform: uppercase;
 }
 .frame{
 	/*background: #7b8f80;*/
 	background: #778f79;
 	padding:50px;
+	position: relative;
 }
 .hex{
 	width: 400px;
@@ -25,7 +26,7 @@ body{
 }
 .mid{
 	/*width: 500px;*/
-	height: 200px;	
+	height: 230px;	
 	/*background: rgba(225,255,255,0.8);*/
 	background: #ede6d4;
 }
@@ -35,45 +36,68 @@ body{
 .mid img{
 	position: absolute;
 }
+#shape1,
+#shape2{
+	position: relative;
+	z-index: 1;
+}
 #shape1 .mid img{
 	top: -20%;
 	left: 32%;
 }
 #shape2 .mid img{
-	top: 10%;
+	top: 20%;
 	left: 42%;
+}
+#shape2 {
+	top: -86px;
 } 
 #copy{
 	color: #4d1e15; 
-	width: 200px;
+	width: 240px;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 0.75em;
+	font-size: 0.7em;
+	position: relative;
+	z-index: 100;
+	letter-spacing: 0.125em;
+	line-height: 1.35em;
+	/* height: 220px; */
+}
+#copy p{
+	width: 60%;
+	
+	margin: 0 auto;
+	padding: 0.75em;
 }
 .diamond{
-	width: 200px;
-	margin: -100px auto;
-	z-index: 100;
+	width: 220px;
+	margin: -120px auto;
+	/* height: 220px; */
 }
 .diamond .top{
-	border-bottom: 50px solid #fff;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;	
+	border-bottom: 60px solid #fff;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;	
 }
 .diamond .bottom{
-	border-top: 50px solid #fff;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;	
+	border-top: 60px solid #fff;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;	
 }
 .pointer-top{
-	border-bottom: 5px solid #4d1e15;
+	border-bottom: 8px solid #4d1e15;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;	
+	width: 0px;
+	margin: 1.75em auto 0;
 }
 .pointer-bottom{
-	border-top: 5px solid #4d1e15;
+	border-top: 8px solid #4d1e15;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;	
+	width: 0;
+	margin: 0 auto;
 }
 .endCopy{
 	color: white;
