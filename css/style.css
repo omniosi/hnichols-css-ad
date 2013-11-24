@@ -1,12 +1,28 @@
+/*overall styles*/
 body{
 	font: normal 1em 'Numans', sans-serif;
 	letter-spacing: 0.125em;
 	text-transform: uppercase;
 }
+a{
+	text-decoration: none;
+	color: rgba(255,255,255,0.75);
+}
+a:hover{
+	color: rgba(255,255,255,1);	
+}
+.trans35{
+	-webkit-transition: all 0.35s ease-in-out;
+		 -moz-transition: all 0.35s ease-in-out;
+			 -o-transition: all 0.35s ease-in-out;
+					transition: all 0.35s ease-in-out;
+}
+
+
+/*specific styles*/
 .frame{
 	background: #778f79;
-	/*padding: 100px 100px 10px;*/
-	padding: 100px;
+	padding: 100px 20px 20px;
 	position: relative;
 }
 .hex{
@@ -104,8 +120,8 @@ body{
 	color: white;
 	text-align: center;
 	position: relative;
-	/*top: -50px;*/
-	top: 0px;
+	top: -50px;
+	/*top: 0px;*/
 }
 .endCopy h1 {
 	font-weight: normal;
@@ -116,4 +132,36 @@ body{
 	font-size: 1.125em;
 	letter-spacing: 0.35em;
 	margin: 0;
+}
+.credits{
+	font-size: 0.75em;
+	color: #4d1e15; 
+}
+.reveal{
+	background: rgba(255,255,255,0.5);
+	padding: 1em;
+	text-align: right;
+}
+.reveal p{
+	padding-top: 0;
+	-webkit-margin-before: 0;
+	margin-before: 0;
+}
+.reveal p:last-child{
+	-webkit-margin-after: 0;
+	margin-after: 0;
+}
+.title{
+	color: #fff;
+	text-align: left;
+	float: left;
+}
+.legal{
+	color: rgba(255,255,255,0.5);
+	font-size: 0.5em;
+	text-align: right;
+	
+}
+.legal:hover{
+	color: rgba(255,255,255,1);
 }
