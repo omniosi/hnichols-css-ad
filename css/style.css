@@ -6,10 +6,10 @@ body{
 }
 a{
 	text-decoration: none;
-	color: rgba(255,255,255,0.75);
+	color: rgba(0,0,0,0.75);
 }
 a:hover{
-	color: rgba(255,255,255,1);	
+	color: rgba(0,0,0,1);	
 }
 .trans35{
 	-webkit-transition: all 0.35s ease-in-out;
@@ -120,8 +120,9 @@ a:hover{
 	color: white;
 	text-align: center;
 	position: relative;
-	top: -50px;
-	/*top: 0px;*/
+	/* top: -50px; */
+	top: 0px;
+	padding-bottom: 75px;
 }
 .endCopy h1 {
 	font-weight: normal;
@@ -135,10 +136,14 @@ a:hover{
 }
 .credits{
 	font-size: 0.75em;
-	color: #4d1e15; 
+	color: #000; 
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	z-index: 100;
 }
 .reveal{
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.75);
 	padding: 1em;
 	text-align: right;
 }
@@ -152,9 +157,10 @@ a:hover{
 	margin-after: 0;
 }
 .title{
-	color: #fff;
+	color: #999;
 	text-align: left;
 	float: left;
+	padding-right: 20px;
 }
 .legal{
 	color: rgba(255,255,255,0.5);
