@@ -26,7 +26,7 @@ a:hover{
 	position: relative;
 }
 .hex{
-	width: 400px;
+	max-width: 400px;
 	margin: 0 auto;
 	z-index: 0;
 }
@@ -122,7 +122,7 @@ a:hover{
 	position: relative;
 	/* top: -50px; */
 	top: 0px;
-	padding-bottom: 75px;
+	padding-bottom: 50px;
 }
 .endCopy h1 {
 	font-weight: normal;
@@ -170,4 +170,54 @@ a:hover{
 }
 .legal:hover{
 	color: rgba(255,255,255,1);
+}
+
+/*mobile device breakpoints*/
+@media screen and (max-width: 400px) {
+	.hex{
+		width: 250px;
+	}
+	.top{
+		border-bottom: 70px solid #ede6d4;
+	}
+	.bottom{
+		border-top: 70px solid #ede6d4;
+	}
+	.top,
+	.bottom{
+		border-left: 125px solid transparent;
+		border-right: 125px solid transparent;
+	}
+	.mid{
+		height: 260px;	
+		background: #ede6d4;
+	}
+	.mid{
+	    position: relative;
+	}
+	#copy{
+		top: -2px;
+	}
+	#shape1 .mid img{
+	top: -15%;
+	left: 20%;
+	}
+	#shape2 .mid img{
+		top: 25%;
+		left: 35%;
+	}
+	#shape2 {
+		top: -103px;
+	}
+	.frame{
+		padding: 20px 20px 20px;
+	}
+	.credits{
+		/*  */position: relative;
+		top: 0px;
+		right: 0px;
+	}
+	.endCopy{
+		padding-bottom: 50px;
+	}
 }
