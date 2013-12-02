@@ -175,7 +175,7 @@ a:hover{
 }
 
 /*mobile device breakpoints*/
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
 	.hex{
 		width: 250px;
 	}
@@ -227,12 +227,12 @@ a:hover{
 	}
 }
 
-@media screen and (max-height: 500px) {
+/*@media screen and (max-height: 500px) {
 	.frame{
 		padding: 20px 20px 20px;
 	}
 	.hex{
-		max-width: 100%;
+		max-width: auto;
 		margin: 0; 
 	}
 	#shape1,
@@ -241,17 +241,15 @@ a:hover{
 	}
 
 	#copy{
-		top: -60px;
+		top: -50px;
 		display: inline-block;
-		left: -161px;
+		left: -167px;
 		width: 160px;
 }
 	#shape1,
-	#shape2,
-	.endCopy{
+	#shape2{
 		display: inline-block;
 		padding-bottom: 40px;
-		/*float: left;*/
 	}
 	.top,
 	.mid,
@@ -286,34 +284,35 @@ a:hover{
 		background: #ede6d4;
 	}
 	#shape2{
-		left: -322px;
-	}
+		left: 240px;
+		width: 400px;
+		top: -325px;
+}
 	.diamond{
 		width: 220px;
 		margin: 0px auto;
-		/* height: 220px; */;
 	}
 	.diamond .top{
 		border-top: 0px solid transparent;
-		border-bottom: 110px solid #fff;
+		border-bottom: 120px solid #fff;
 		border-left: 80px solid transparent;
 		border-right: 80px solid transparent;	
 	}
 	.diamond .bottom{
 		border-bottom: 0px solid transparent;
-		border-top: 110px solid #fff;
+		border-top: 120px solid #fff;
 		border-left: 80px solid transparent;
 		border-right: 80px solid transparent;	
 	}
 	.endCopy{
 		top: 200px;
 	
-		right: 100px;
+		right: 26px;
 		position: absolute;
 	}
 	.copy-text{
 		position: absolute;
-		top: 74px;
+		top: 83px;
 	}
 	.copy-text p,
 	.pointer-top,
@@ -340,4 +339,4 @@ a:hover{
 		position: relative;
 		top: -2em;
 	}
-}
+}*/
