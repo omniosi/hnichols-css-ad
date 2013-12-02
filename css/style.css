@@ -200,6 +200,9 @@ a:hover{
 	#copy{
 		top: -2px;
 	}
+	#shape1{
+		top: 0;
+	}
 	#shape1 .mid img{
 	top: -15%;
 	left: 20%;
@@ -232,8 +235,13 @@ a:hover{
 		max-width: 100%;
 		margin: 0; 
 	}
+	#shape1,
+	#shape2{
+		top: 20px;
+	}
+
 	#copy{
-		top: -50px;
+		top: -60px;
 		display: inline-block;
 		left: -161px;
 		width: 160px;
@@ -278,7 +286,6 @@ a:hover{
 		background: #ede6d4;
 	}
 	#shape2{
-		top: 30px;
 		left: -322px;
 	}
 	.diamond{
