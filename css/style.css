@@ -56,7 +56,7 @@ a:hover{
 	position: relative;
 	z-index: 1;
 	top: 30px;
-	left: 20px;
+	left: 0px;
 }
 #shape1 .mid img{
 	top: -20%;
@@ -67,7 +67,7 @@ a:hover{
 	left: 42%;
 }
 #shape2 {
-	top: -90px;
+	top: -60px;
 } 
 #copy{
 	color: #4d1e15; 
@@ -81,7 +81,7 @@ a:hover{
 	line-height: 1.35em;
 	/* height: 220px; */
 	position: relative;
-	top: 5px;
+	top: 35px;
 }
 #copy p{
 	width: 60%;
@@ -91,8 +91,8 @@ a:hover{
 }
 .diamond{
 	width: 220px;
-	margin: -0px auto;
-	/* height: 220px; */
+	margin: -120px auto;
+	/* height: 220px; */;
 }
 .diamond .top{
 	border-bottom: 60px solid #fff;
@@ -233,9 +233,9 @@ a:hover{
 		margin: 0; 
 	}
 	#copy{
-		top: 5px;
+		top: -50px;
 		display: inline-block;
-		left: -141px;
+		left: -161px;
 		width: 160px;
 }
 	#shape1,
@@ -265,12 +265,12 @@ a:hover{
 		border-bottom: 150px solid transparent;
 	}
 	#shape1 .mid img{
-		top: 20px;
-		left: 15%;
+		top: 26px;
+		left: 5%;
 	}
 	#shape2 .mid img{
 		top: 50px;
-		left: 35%;
+		left: 38%;
 	}
 	.mid{
 		width: 200px;
@@ -279,7 +279,12 @@ a:hover{
 	}
 	#shape2{
 		top: 30px;
-		left: -302px;
+		left: -322px;
+	}
+	.diamond{
+		width: 220px;
+		margin: 0px auto;
+		/* height: 220px; */;
 	}
 	.diamond .top{
 		border-top: 0px solid transparent;
@@ -298,5 +303,34 @@ a:hover{
 	
 		right: 100px;
 		position: absolute;
+	}
+	.copy-text{
+		position: absolute;
+		top: 74px;
+	}
+	.copy-text p,
+	.pointer-top,
+	.pointer-bottom{
+		display: inline-block;
+	}
+	.pointer-top{
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		border-left: 0px solid transparent;
+		border-right: 8px solid #4d1e15;	
+		width: 0px;
+		margin: 0 auto 0;
+		position: relative;
+		top: -2em;
 }
+	.pointer-bottom{
+		border-bottom: 5px solid transparent;
+		border-top: 5px solid transparent;
+		border-left: 8px solid #4d1e15;
+		border-right: 0px solid transparent;	
+		width: 0;
+		margin: 0 auto;
+		position: relative;
+		top: -2em;
+	}
 }
